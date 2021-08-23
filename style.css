@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =========HEADER SECTION CSS START=========== */
+.header{
+    padding: 10px 0px;
+    text-align: center;
+}
+.header ul{
+    
+}
+.header ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    background-color:#48dbfb;
+}
+.header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 0px;
+    position: relative;
+    transition: .5s;
+}
+.header ul li:hover{
+    background-color: #fff;
+    transition: .5s;
+}
+.header ul li a:hover{
+    color: #48dbfb;
+}
+.header ul li a::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 8px;
+	height:3px;
+	width: 0%;
+	background-color: black;
+    transition: .5s;
+}
+.header ul li:hover a::before{
+    width: 100%;
+}
+/* =========HEADER SECTION CSS END=========== */
+/* =========BANNER SECTION CSS START=========== */
+.banner{
+    background-color:#48dbfb;
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner h2{
+    
+}
+.banner h1{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.banner button {
+    padding: 15px 10px;
+    background-color: w hite;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    color: #dfcfcff7;
+    margin-top: 15px;
+    font-family:sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.banner button::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color:black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index:-1;
+}
+.banner button:hover{
+    color: rgba(255, 255, 255, 0.875);
+}
+.banner button:hover::before{
+    width: 100%;
+}
+/* =========BANNER SECTION CSS END=========== */
+/* =========ABOUT SECTION CSS START=========== */
+.about{
+    padding:50px 0px ;
+    text-align: center;
+    font-family: 'work sans',sans-serif;
+}
+.about h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.about p{
+    color:rgba(0, 0, 0, 0.819);
+}
+/* =========ABOUT SECTION CSS END=========== */
+/* ==========IMAGE SECTION CSS START========== */
+.image{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.image-row {
+
+}
+.reimage{
+    width: 20%;
+    display: inline-block;
+    height:200px;
+    margin: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+.image-row img{
+    max-width: 100%;
+    transition: .5s;
+}
+.img5 img{
+    height: 82%;
+    width: 100%;
+}
+.img2 img{
+    height: 82%;
+    width: 100%;
+}
+.img1 img:hover{
+    transform:rotate(360deg);
+}
+.img2 img:hover{
+    transform:rotate(30deg);
+}
+.img3 img:hover{
+    transform:rotate(-30deg);
+}
+.img4 img:hover{
+    transform:rotate(-40deg);
+}
+.img5 img:hover{
+    transform:rotate(25deg);
+}
+.img6 img:hover{
+    transform:rotate(360deg);
+}
+.img7 img:hover{
+    transform:rotate(10deg) scale(1.1);
+}
+.img8 img:hover{
+    transform:rotate(-10deg) scale(1.2);
+}
+
+/* ==========IMAGE SECTION CSS END========== */
+/* ==========FOOTER SECTION CSS START========== */
+.footer{
+    width: 900px;
+    margin:100px auto 15px auto;
+    text-align: center;
+    font-family: 'Work sans',sans-serif;
+}
+.footer h1{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.footer p{
+    margin: 20px 0px;
+    display: block;
+    color: #8f9094;
+}
+.step1{
+    position: relative;
+    top: 0;
+    left: -25%;
+    transform: rotate(-50deg);
+}
+.step1:hover{
+    position: relative;
+    top: 0;
+    left: -25%;
+    color: black;
+    background-color: #48dbfb;
+    transform: rotate(0deg) scale(1.2);
+}
+.step2:hover{
+    color: black;
+    background-color: #48dbfb;
+    transform: rotate(0deg) scale(1.2);
+}
+.step3{
+    position: relative;
+    top: 0;
+    left: 25%;
+    transform: rotate(45deg);
+}
+.step3:hover{
+    position: relative;
+    top: 0;
+    left: 25%;
+    color: black;
+    background-color: #48dbfb;
+    transform: rotate(0deg) scale(1.2);
+}
+.step1 h5,.step2 h5,.step3 h5{
+    margin-top: 13px;
+}
+.step1,.step2,.step3{
+    height: 40px;
+    width: 60px;
+    background-color:black;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition: .5s;
+}
+/* ==========FOOTER SECTION CSS END========== */
+/* ==========FOOTER BOTTOM SECTION CSS START========== */
+.footer-bottom{
+    background-color:#2e2f31;
+    padding: 10px 0px;
+    font-family: 'work sans',sans-serif;
+}
+.footer-bottom h5{
+    color: white;
+    text-align: center;
+}
+/* ==========FOOTER BOTTOM SECTION CSS END========== */
